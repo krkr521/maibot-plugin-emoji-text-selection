@@ -9,7 +9,7 @@
   },
   "license": "GPL-v3.0-or-later",
   "urls": {
-    "repository": "https://github.com/hsd221/maibot-plugin-emoji-text-selection",
+    "repository": "https://github.com/krkr521/maibot-plugin-emoji-text-selection",
     "homepage": "https://github.com/hsd221/maibot-plugin-emoji-text-selection",
     "documentation": "https://github.com/hsd221/maibot-plugin-emoji-text-selection",
     "issues": "https://github.com/hsd221/maibot-plugin-emoji-text-selection/issues"
@@ -23,10 +23,19 @@
     "max_version": "2.99.99"
   },
   "dependencies": [],
-  "capabilities": ["send.emoji", "emoji.get_emotions", "emoji.get_by_description", "llm.embed", "llm.generate", "message.get_recent"],
+  "capabilities": [
+    "send.emoji",
+    "emoji.get_emotions",
+    "emoji.get_by_description",
+    "llm.embed",
+    "llm.generate",
+    "message.get_recent"
+  ],
   "i18n": {
     "default_locale": "zh-CN",
-    "supported_locales": ["zh-CN"]
+    "supported_locales": [
+      "zh-CN"
+    ]
   },
-  "id": "hsd221.emoji-text-selector"
+  "id": "emoji-text-selection"
 }

@@ -998,6 +998,8 @@ class EmojiTextSelectorPlugin(MaiBotPlugin):
             llm_result = await self.ctx.llm.generate(
                 prompt=prompt,
                 model=self.config.selector.llm_model,
+                temperature=0.7,
+                max_tokens=256,
             )
 
             response_text = ""

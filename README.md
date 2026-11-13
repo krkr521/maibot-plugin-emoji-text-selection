@@ -1,3 +1,5 @@
+> **定制 fork**：本仓库基于 [hsd221/maibot-plugin-emoji-text-selection](https://github.com/hsd221/maibot-plugin-emoji-text-selection)。定制代码位于 `local/custom`，功能差异和安装限制见 [本地改动说明](LOCAL_CHANGES.md)。原作者及许可证保留。
+
 # Emoji Text Selector —— 智能表情包选择插件
 
 让 MaiBot 在没有视觉模型的情况下，通过语义向量匹配或文本 LLM 完成表情包选择与发送。

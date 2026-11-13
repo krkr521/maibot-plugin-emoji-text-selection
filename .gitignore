@@ -3,3 +3,27 @@ __pycache__/
 .cache/
 .codewhale/
 .deepseek/
+
+# Local runtime and private assets
+/config.toml
+/config_back/
+/data/
+/logs/
+/cache/
+/tmp/
+/.env
+/.env.*
+/auth.json
+/my_memory.md
+/chat_notes.md
+/local_images/
+/voices/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.backup.*
+*.bak_*
+*.bak-*
+*.sqlite3
+*.db
